@@ -1,3 +1,4 @@
+
 package com.blog.springblog;
 
 import org.springframework.boot.SpringApplication;
@@ -9,5 +10,5 @@ public class SpringBlogApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBlogApplication.class, args);
     }
-
 }
+

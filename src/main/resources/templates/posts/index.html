@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>These are all the posts</title>
+
+    <div class="row" th:each="post : ${posts}">
+        <h2 th:text="${post.title}"></h2>
+        <p th:text="${post.body}"></p>
+
+    </div>
+
+
+</head>
+<body>
+<h1>These are all the posts</h1>
+
+
+</body>
+</html>
