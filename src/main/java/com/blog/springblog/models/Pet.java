@@ -1,4 +1,8 @@
 package com.blog.springblog.models;
 
-public class Pet {
+import java.io.Serializable;
+
+public class Pet implements Serializable {
+
+
 }
